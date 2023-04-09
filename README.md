@@ -22,7 +22,6 @@ The script only has 2 options :
      .--'`:._]        |_____|___|__,|_| |___|
     /  \      '-.              Made By: @castilho101
     
-
-  --ffuf-flags FFUF_FLAGS   Extra FFUF flags, ex: --ffuf-extra "-mc all -fc 404"
   --silent                  Silent mode
+  --ffuf-flags FFUF_FLAGS   Extra FFUF flags, ex: --ffuf-extra "-mc all -fc 404"
 ```
