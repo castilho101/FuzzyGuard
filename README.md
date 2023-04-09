@@ -12,7 +12,7 @@ ffuf -u https://example.com/FUZZ -w WORDLIST -fl 169 -fw 792 -fs 160000-170000
 ## Usage
 The script only has 2 options :
 ```
-               ,       _____
+             ,         _____
         _.-"` `'-.    |   __|_ _ ___ ___ _ _
         '._ __{}_(    |   __| | |- _|- _| | |
         |'--.__\      |__|  |___|___|___|_  |
