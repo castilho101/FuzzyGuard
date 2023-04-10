@@ -116,7 +116,7 @@ def analyze_targets(target):
         content = response.text
         
         # Get values for analyzies
-        num_words  = len(content.split())
+        num_words  = len(content.split(" "))
         num_lines  = len(content.split('\n'))
         size_bytes = len(content.encode('utf-8'))
         
