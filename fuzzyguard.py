@@ -37,7 +37,7 @@ def logo():
 def generate_ffuf_commands(target, ffuf_filter_flags):
     
     prefix = ""
-    ffuf_command = f"ffuf -u {target}/FUZZ -w WORDLIST {ffuf_filter_flags[1:]} {FFUF_EXTRA_FLAG}"
+    ffuf_command = f"ffuf -u {target}/FUZZ -w WORDLIST {FFUF_EXTRA_FLAG} {ffuf_filter_flags[1:]}"
     
     if not SILENT_MODE:
         prefix = f"{Color.bold('[')}{Color.green('+')}{Color.bold(']')} "
